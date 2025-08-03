@@ -36,7 +36,7 @@ export default function Countdown() {
   if (!timeLeft) return null; // শুরুতে কিছু না দেখাইলে SSR/CSR mismatch হয় না
 
   return (
-    <div className="my-10 py-10 px-6 rounded-2xl shadow-2xl bg-gradient-to-br from-yellow-100 via-yellow-200 to-yellow-300 border border-yellow-400 max-w-4xl mx-auto">
+    <div className=" mt-[117px] my-10 py-10 px-6 rounded-2xl shadow-2xl bg-gradient-to-br from-yellow-100 via-yellow-200 to-yellow-300 border border-yellow-400 max-w-4xl mx-auto">
       <h2 className="text-3xl font-extrabold text-gray-800 mb-8 text-center">⏳ পূর্ণমিলনী শুরু হতে বাকি:</h2>
 
       <div className="flex flex-wrap justify-center gap-6">

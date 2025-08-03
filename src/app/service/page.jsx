@@ -10,6 +10,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
+import ServicesPage from '../api/services/page';
 export const servicesData = [
   {
     icon: "📝",
@@ -70,6 +71,7 @@ export default function Service() {
   }, []);
 
   return (
+    <div>
     <div className="bg-gray-100 py-12 px-6 md:px-20">
       <h2 className="text-3xl font-bold text-center text-gray-800 mb-10">আমাদের সেবাসমূহ</h2>
 
@@ -89,6 +91,8 @@ export default function Service() {
           ))}
         </div>
       )}
+    </div>
+<ServicesPage></ServicesPage>
     </div>
   );
 }
